@@ -1,0 +1,47 @@
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: right;
+}
+img {
+  height:50%;
+  width: 30%;
+}
+div {
+  background-color: #14FF91;
+  border: 2px solid #14FF91;
+	border-radius: 5px;
+	height: 135px;
+	width: 100px;
+	margin: 30px;
+  text-align: left;
+  }
+.ligne {
+  text-decoration :underline;
+}
+.NB {
+  position:static;
+  top : 50px;
+  left: 30px;
+  right: 60px;
+  background-color: #14FF91;
+  color : black;
+  width: auto;
+} /*50% width pour la class Nb*/
+#one
+{
+  border: 2px solid black;
+	border-radius: 5px;
+  height: auto;
+  width: auto;
+  background-color: white;
+  position: relative;
+}
+li {
+text-align: justify;
+margin : 1em;
+}
+div li {
+  margin:0.5em;
+}
