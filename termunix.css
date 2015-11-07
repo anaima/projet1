@@ -28,7 +28,7 @@ div {
   background-color: #14FF91;
   color : black;
   width: 50%;
-} /*mettre pour width pour avoir une bande verte plus large*/
+} /*mettre auto pour width pour avoir une bande verte plus large*/
 #one
 {
   border: 2px solid black;
