@@ -37,6 +37,7 @@ div {
   width: auto;
   background-color: white;
   position: relative;
+  font-size: 19px;
 }
 li {
 text-align: justify;
@@ -44,4 +45,29 @@ margin : 1em;
 }
 div li {
   margin:0.5em;
+}
+code {
+  border-radius: 5px;
+  background-color: black;
+  color: lightgray;
+  font-style: italic;
+  font-weight: bold;
+}
+span{
+  border-radius: 5px;
+  background-color: #FF136B;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media screen (min-width:320px) and (max-width: 1920px)
+
+{
+ .NB
+    {
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
 }
