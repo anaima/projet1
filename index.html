@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link type="text/css" rel="stylesheet" href="termunix.css">
   <link rel="icon" type="image/png" href="mini.png" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Les commandes de console Ubuntu</title>
 </head>
 
@@ -20,74 +20,110 @@
     </strong>
     <br/>
     <ul>
-      <li> <span>Ctrl + Alt + t =</span>permet d'ouvrir le terminal</li>
-      <li> <span>Ctrl + a =</span> pour aller au début de la ligne</li>
-      <li> <span>Ctrl + e =</span> pour aller à la fin de la ligne</li>
-      <li> <span>Ctrl + c =</span> annule la dernière commande</li>
+      <li>
+        <span>Ctrl + Alt + t =</span>permet d'ouvrir le terminal</li>
+      <li>
+        <span>Ctrl + a =</span> pour aller au début de la ligne</li>
+      <li>
+        <span>Ctrl + e =</span> pour aller à la fin de la ligne</li>
+      <li>
+        <span>Ctrl + c =</span> annule la dernière commande</li>
     </ul>
   </div>
   <div id="one">
     <ul>
-      <li> <code>sudo su :</code> permet de passer en mode administrateur
+      <li>
+        <code>sudo su :</code> permet de passer en mode administrateur
         <br>
         <strong>NB :</strong> en tapant cette commande il demande d'entrer votre mot de passe</li>
 
-      <li> <code>passwd :</code> cette commande permet d'entrer un mot de passe</li>
+      <li>
+        <code>passwd :</code> cette commande permet d'entrer un mot de passe</li>
 
-      <li> <code>clear :</code> efface tout ce qu'il y a sur le terminal</li>
+      <li>
+        <code>clear :</code> efface tout ce qu'il y a sur le terminal</li>
 
-      <li> <code>(logicel) --version ou (logiciel) --v :</code> permet de savoir la version du logiciel installé </li>
+      <li>
+        <code>(logicel) --version ou (logiciel) --v :</code> permet de savoir la version du logiciel installé </li>
 
-      <li> <code>cd (Change Directory) :</code> cette commande permet de se placer sur un répertoire
-        <br><code>cd / :</code> racine du répertoire
-        <br><code> cd .. :</code> remonte au répertoire de là où vs êtes</li>
+      <li>
+        <code>cd (Change Directory) :</code> cette commande permet de se placer sur un répertoire
+        <br>
+        <code>cd / :</code> racine du répertoire
+        <br>
+        <code> cd .. :</code> remonte au répertoire de là où vs êtes</li>
 
-      <li> <code>ls ( List Directory) :</code> liste les fichiers dans le répertoire dit<br> <code>ls -a :</code> liste les fichiers cachés
-        <br><code> ls -l :</code> liste les fichiers de manière détaillé
-        <br><code> ls -la :</code> liste les fichiers cachés et les détaille
+      <li>
+        <code>ls ( List Directory) :</code> liste les fichiers dans le répertoire dit
+        <br>
+        <code>ls -a :</code> liste les fichiers cachés
+        <br>
+        <code> ls -l :</code> liste les fichiers de manière détaillé
+        <br>
+        <code> ls -la :</code> liste les fichiers cachés et les détaille
         <br>
         <strong>NB :</strong> Pour aller plus vite, tapez ll.</li>
 
-      <li> <code>touch :</code> permet de créer un fichier vide (préciser l'extension du fichier exple : fichier.txt)</li>
+      <li>
+        <code>touch :</code> permet de créer un fichier vide (préciser l'extension du fichier exple : fichier.txt)</li>
 
-      <li> <code>rm ( remove ) :</code> permet de supprimer un fichier<br><u>Exemple :</u> rm (source)  (destination)
+      <li>
+        <code>rm ( remove ) :</code> permet de supprimer un fichier
+        <br><u>Exemple :</u> rm (source) (destination)
       </li>
 
-      <li> <code>cp (copy) :</code> permet de copier un fichier<br><u>Exemple :</u> cp (source)  (destination)
+      <li>
+        <code>cp (copy) :</code> permet de copier un fichier
+        <br><u>Exemple :</u> cp (source) (destination)
       </li>
       <strong>NB :</strong> pour la source, préciser le chemin (là où se trouve votre fichier)</li>
 
-      <li> <code>mkdir ( Make Directory) :</code> créer un répertoire</li>
-      <li> <code>rmdir ( remove Directory) :</code> supprime le répertoire</li>
+      <li>
+        <code>mkdir ( Make Directory) :</code> créer un répertoire</li>
+      <li>
+        <code>rmdir ( remove Directory) :</code> supprime le répertoire</li>
 
-      <li> <code>mv :</code> correspond au « couper » sur windows = déplacer , renommer</li>
+      <li>
+        <code>mv :</code> correspond au « couper » sur windows = déplacer , renommer</li>
 
-      <li> <code>cat :</code> permet d'afficher le contenu d'un fichier.</li>
+      <li>
+        <code>cat :</code> permet d'afficher le contenu d'un fichier.</li>
 
-      <li> <code>nano :</code> permet de modifier le fichier</li>
+      <li>
+        <code>nano :</code> permet de modifier le fichier</li>
 
-      <li> <code>
-        <commande> - - help :</code> permet de montrer l'aide d'une commande spécifique</li>
+      <li>
+        <code>
+          <commande> - - help :</code> permet de montrer l'aide d'une commande spécifique</li>
 
-      <li> <code>ps :</code> montre les processus en cours d'utilisation</li>
+      <li>
+        <code>ps :</code> montre les processus en cours d'utilisation</li>
 
-      <li> <code>pwd :</code> cette commande permet d'afficher les répertoires de travail/ en cours d'utilisation</li>
+      <li>
+        <code>pwd :</code> cette commande permet d'afficher les répertoires de travail/ en cours d'utilisation</li>
 
-      <li> <code>apt-get install "nom du paquet à installer" :</code> permet d'installer des paquets, des logiciels compltR.
-          <br><code> apt-get update :</code> permet de télécharger toutes les mises à jours
-          <br><code> apt-get upgrade :</code> permet de les installer
-          <br><code> apt-get purge "nom du logiciel" :</code> efface le logiciel installé</li>
+      <li>
+        <code>apt-get install "nom du paquet à installer" :</code> permet d'installer des paquets, des logiciels compltR.
+        <br>
+        <code> apt-get update :</code> permet de télécharger toutes les mises à jours
+        <br>
+        <code> apt-get upgrade :</code> permet de les installer
+        <br>
+        <code> apt-get purge "nom du logiciel" :</code> efface le logiciel installé</li>
 
-      <li> <code>chmod :</code> permet de donner les droits ( de lecture, d'écriture et/ou d’exécution ) à un fichier.
+      <li>
+        <code>chmod :</code> permet de donner les droits ( de lecture, d'écriture et/ou d’exécution ) à un fichier.
         <br><u>Exemple :</u> chmod 777 "nom du fichier" : ne donne aucun droits (de lecture, d'écriture et/ou d’exécution) sur le fichier « sauf pour l'admin »</li>
 
-      <li> <code>exit :</code> permet de sortir du terminal</li>
-      <li> <code>shutdown "nb de minutes":</code> éteint l'ordinateur dans x minutes.</li>
-      <li> <code>apropos + (commande) :</code> indique le rôle d'une commande</li>
-      <li> <code>tar.gz :</code> décompresse les fichiers d'installations</li>
+      <li>
+        <code>exit :</code> permet de sortir du terminal</li>
+      <li>
+        <code>shutdown "nb de minutes":</code> éteint l'ordinateur dans x minutes.</li>
+      <li>
+        <code>apropos + (commande) :</code> indique le rôle d'une commande</li>
+      <li>
+        <code>tar.gz :</code> décompresse les fichiers d'installations</li>
   </div>
-
-
 
 
 </body>
